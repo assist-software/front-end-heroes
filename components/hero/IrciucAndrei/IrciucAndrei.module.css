@@ -1,0 +1,14 @@
+/* Fa-ti de cap aici */
+.thumbnail {
+  height: 100%;
+  border: 3px solid #524c4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.name {
+  color: #524c4c;
+  text-align: center;
+}
