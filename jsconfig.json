@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/hero/*": ["components/hero/*"]
+      "@components/*": ["components/*"],
     }
   }
 }

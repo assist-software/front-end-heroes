@@ -1,0 +1,9 @@
+.heroes {
+  display: grid;
+  grid-auto-rows: minmax(auto, 15vw);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}

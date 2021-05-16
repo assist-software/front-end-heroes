@@ -1,0 +1,45 @@
+.love {
+  text-align: center;
+  font-family: "Crafty Girls", cursive;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.loveTitle {
+  font-size: 75px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.loveSubtitle {
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+.loveImages {
+  max-width: 1280px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+  border: 6px solid #524c4c;
+  padding: 32px;
+}
+
+.loveFun {
+  font-size: 36px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.loveDiscover {
+  font-size: 24px;
+}
+
+.loveExtra {
+  font-size: 35px;
+}
