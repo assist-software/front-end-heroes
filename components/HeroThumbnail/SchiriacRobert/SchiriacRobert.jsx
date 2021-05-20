@@ -1,11 +1,7 @@
-import style from "./SchiriacRobert.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const SchiriacRobert = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Schiriac Robert</h2>
-    </div>
-  );
+  return <Thumbnail name="Schiriac Robert" type="male" />;
 };
 
 export default SchiriacRobert;

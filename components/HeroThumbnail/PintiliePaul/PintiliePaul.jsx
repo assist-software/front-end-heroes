@@ -1,11 +1,7 @@
-import style from "./PintiliePaul.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const PintiliePaul = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Pintilie Paul</h2>
-    </div>
-  );
+  return <Thumbnail name="Pintilie Paul" type="male" />;
 };
 
 export default PintiliePaul;

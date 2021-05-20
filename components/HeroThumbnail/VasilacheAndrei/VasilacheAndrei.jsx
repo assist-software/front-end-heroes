@@ -1,11 +1,7 @@
-import style from "./VasilacheAndrei.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const VasilacheAndrei = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Vasilache Andrei</h2>
-    </div>
-  );
+  return <Thumbnail name="Vasilache Andrei" type="male" />;
 };
 
 export default VasilacheAndrei;

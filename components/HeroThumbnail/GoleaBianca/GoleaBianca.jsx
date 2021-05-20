@@ -1,11 +1,7 @@
-import style from "./GoleaBianca.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const GoleaBianca = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Golea Bianca</h2>
-    </div>
-  );
+  return <Thumbnail name="Golea Bianca" type="female" />;
 };
 
 export default GoleaBianca;

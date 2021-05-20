@@ -1,11 +1,7 @@
-import style from "./AndriiciucFlorin.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const AndriiciucFlorin = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Andriiciuc Florin</h2>
-    </div>
-  );
+  return <Thumbnail name="Andriiciuc Florin" type="male" />;
 };
 
 export default AndriiciucFlorin;

@@ -1,11 +1,7 @@
-import style from "./VrabieCristi.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const VrabieCristi = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Vrabie Cristi</h2>
-    </div>
-  );
+  return <Thumbnail name="Vrabie Cristi" type="male" />;
 };
 
 export default VrabieCristi;

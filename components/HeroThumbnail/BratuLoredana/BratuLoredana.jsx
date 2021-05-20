@@ -1,11 +1,7 @@
-import style from "./BratuLoredana.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const BratuLoredana = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Bratu Loredana</h2>
-    </div>
-  );
+  return <Thumbnail name="Bratu Loredana" type="female" />;
 };
 
 export default BratuLoredana;

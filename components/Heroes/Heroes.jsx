@@ -1,3 +1,5 @@
+import { ClientOnly } from "@components/ClientOnly";
+
 import AgheorghieseiMadalina from "@components/HeroThumbnail/AgheorghieseiMadalina/AgheorghieseiMadalina";
 import AiloaieCosmin from "@components/HeroThumbnail/AiloaieCosmin/AiloaieCosmin";
 import AlexiucBianca from "@components/HeroThumbnail/AlexiucBianca/AlexiucBianca";
@@ -11,7 +13,7 @@ import CenusaDumitru from "@components/HeroThumbnail/CenusaDumitru/CenusaDumitru
 import CiobanAndrei from "@components/HeroThumbnail/CiobanAndrei/CiobanAndrei";
 import DianaMiraute from "@components/HeroThumbnail/DianaMiraute/DianaMiraute";
 import DolhescuAndrei from "@components/HeroThumbnail/DolhescuAndrei/DolhescuAndrei";
-import FinagaPerica from "@components/HeroThumbnail/FinagaPerica/FinagaPerica";
+import FinagaPerica from "@components/HeroThumbnail/FinagaPetrica/FinagaPetrica";
 import FrunzeIacob from "@components/HeroThumbnail/FrunzeIacob/FrunzeIacob";
 import FurtunaDaniel from "@components/HeroThumbnail/FurtunaDaniel/FurtunaDaniel";
 import GoleaBianca from "@components/HeroThumbnail/GoleaBianca/GoleaBianca";
@@ -104,9 +106,11 @@ export const Heroes = () => {
   return (
     <section className={style.heroes} id="heroes">
       {heroes.map((hero, index) => (
-        <a className={style.heroThumb} key={index} href={`/heroes/${hero.url}`}>
-          {hero.component}
-        </a>
+        <ClientOnly key={index}>
+          <a className={style.heroThumb} href={`/heroes/${hero.url}`}>
+            {hero.component}
+          </a>
+        </ClientOnly>
       ))}
     </section>
   );

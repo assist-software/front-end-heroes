@@ -1,11 +1,7 @@
-import style from "./MerticariuSergiu.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const MerticariuSergiu = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Merticariu Sergiu</h2>
-    </div>
-  );
+  return <Thumbnail name="Merticariu Sergiu" type="male" />;
 };
 
 export default MerticariuSergiu;

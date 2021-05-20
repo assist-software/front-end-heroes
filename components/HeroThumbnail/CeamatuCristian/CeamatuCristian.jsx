@@ -1,11 +1,7 @@
-import style from "./CeamatuCristian.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const CeamatuCristian = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Ceamatu Cristian</h2>
-    </div>
-  );
+  return <Thumbnail name="Cazacincu Alexandru" type="male" />;
 };
 
 export default CeamatuCristian;

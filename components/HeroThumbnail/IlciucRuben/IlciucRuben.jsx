@@ -1,11 +1,7 @@
-import style from "./IlciucRuben.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const IlciucRuben = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Ilciuc Ruben</h2>
-    </div>
-  );
+  return <Thumbnail name="Ilciuc Ruben" type="male" />;
 };
 
 export default IlciucRuben;

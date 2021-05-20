@@ -1,11 +1,7 @@
-import style from "./PamparauCostelus.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const PamparauCostelus = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Pamparau Costelus</h2>
-    </div>
-  );
+  return <Thumbnail name="Pamparau Costelus" type="male" />;
 };
 
 export default PamparauCostelus;

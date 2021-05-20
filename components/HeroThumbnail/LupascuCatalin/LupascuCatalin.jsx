@@ -1,11 +1,7 @@
-import style from "./LupascuCatalin.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const LupascuCatalin = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Lupascu Catalin</h2>
-    </div>
-  );
+  return <Thumbnail name="Lupascu Catalin" type="male" />;
 };
 
 export default LupascuCatalin;

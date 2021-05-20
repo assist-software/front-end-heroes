@@ -1,11 +1,7 @@
-import style from "./AiloaieCosmin.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const AiloaieCosmin = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Ailoaie Cosmin</h2>
-    </div>
-  );
+  return <Thumbnail name="Ailoaie Cosmin" type="male" />;
 };
 
 export default AiloaieCosmin;

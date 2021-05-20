@@ -1,5 +1,28 @@
 .landing {
-  /* height: 100vh; */
-  min-height: 400px;
-  background-color: #ddd;
+  font-family: "Raleway", sans-serif;
+  background-color: #e3f6f5;
+  margin: 0;
+  padding: 80px 32px;
+}
+
+.landingContainer {
+  max-width: 1100px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border: solid 10px #272343;
+  position: relative;
+}
+
+.landingImage {
+  width: 100%;
+}
+
+.landingCard {
+  padding: 32px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(255, 255, 254);
+  font-size: 18px;
 }

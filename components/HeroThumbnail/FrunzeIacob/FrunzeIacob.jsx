@@ -1,11 +1,7 @@
-import style from "./FrunzeIacob.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const FrunzeIacob = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Frunze Iacob</h2>
-    </div>
-  );
+  return <Thumbnail name="Frunze Iacob" type="male" />;
 };
 
 export default FrunzeIacob;

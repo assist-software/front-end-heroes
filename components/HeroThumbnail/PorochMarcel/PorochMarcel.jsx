@@ -1,11 +1,7 @@
-import style from "./PorochMarcel.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const PorochMarcel = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Poroch Marcel</h2>
-    </div>
-  );
+  return <Thumbnail name="Poroch Marcel" type="male" />;
 };
 
 export default PorochMarcel;

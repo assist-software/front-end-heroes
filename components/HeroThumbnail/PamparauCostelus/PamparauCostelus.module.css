@@ -3,12 +3,38 @@
   height: 100%;
   border: 3px solid #524c4c;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+}
+
+.thumbnail:after {
+  content: "";
+  display: block;
+  background-image: url(/male-hero.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .name {
-  color: #524c4c;
   text-align: center;
+  z-index: 2;
+  background-color: #ddd;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  padding: 16px;
+  width: 100%;
+  font-weight: 500;
 }

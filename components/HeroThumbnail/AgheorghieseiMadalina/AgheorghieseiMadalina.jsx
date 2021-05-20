@@ -1,11 +1,7 @@
-import style from "./AgheorghieseiMadalina.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const AgheorghieseiMadalina = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Agheorghiesei Madalina</h2>
-    </div>
-  );
+  return <Thumbnail name="Agheorghiesei Madalina" type="female" />;
 };
 
 export default AgheorghieseiMadalina;

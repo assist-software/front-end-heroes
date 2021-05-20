@@ -1,11 +1,7 @@
-import style from "./HladiucRaluca.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const HladiucRaluca = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Hladiuc Raluca</h2>
-    </div>
-  );
+  return <Thumbnail name="Hladiuc Raluca" type="female" />;
 };
 
 export default HladiucRaluca;

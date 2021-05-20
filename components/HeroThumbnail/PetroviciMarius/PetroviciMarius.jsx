@@ -1,11 +1,7 @@
-import style from "./PetroviciMarius.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const PetroviciMarius = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Petrovici Marius</h2>
-    </div>
-  );
+  return <Thumbnail name="Petrovici Marius" type="male" />;
 };
 
 export default PetroviciMarius;

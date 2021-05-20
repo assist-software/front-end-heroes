@@ -1,11 +1,7 @@
-import style from "./IoanaIanovici.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const IoanaIanovici = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Ioana Ianovici</h2>
-    </div>
-  );
+  return <Thumbnail name="Ioana Ianovici" type="female" />;
 };
 
 export default IoanaIanovici;

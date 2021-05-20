@@ -1,11 +1,7 @@
-import style from "./CenusaDumitru.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const CenusaDumitru = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Cenusa Dumitru</h2>
-    </div>
-  );
+  return <Thumbnail name="Cenusa Dumitru" type="male" />;
 };
 
 export default CenusaDumitru;

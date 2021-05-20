@@ -1,11 +1,7 @@
-import style from "./FurtunaDaniel.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const FurtunaDaniel = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Furtuna Daniel</h2>
-    </div>
-  );
+  return <Thumbnail name="Furtuna Daniel" type="male" />;
 };
 
 export default FurtunaDaniel;

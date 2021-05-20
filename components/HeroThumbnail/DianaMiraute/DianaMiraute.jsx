@@ -1,11 +1,7 @@
-import style from "./DianaMiraute.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const DianaMiraute = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Diana Miraute</h2>
-    </div>
-  );
+  return <Thumbnail name="Diana Miraute" type="female" />;
 };
 
 export default DianaMiraute;

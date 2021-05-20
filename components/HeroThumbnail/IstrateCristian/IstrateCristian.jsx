@@ -1,11 +1,7 @@
-import style from "./IstrateCristian.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const IstrateCristian = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Istrate Cristian</h2>
-    </div>
-  );
+  return <Thumbnail name="Istrate Cristian" type="male" />;
 };
 
 export default IstrateCristian;

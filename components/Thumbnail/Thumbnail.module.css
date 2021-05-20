@@ -1,0 +1,40 @@
+.thumbnail {
+  height: 100%;
+  border: 3px solid #524c4c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.thumbnailName {
+  text-align: center;
+  z-index: 2;
+  background-color: #ddd;
+  position: absolute;
+  bottom: 0;
+  font-size: 18px;
+  padding: 16px 5px;
+  width: 100%;
+  font-weight: 500;
+}
+
+.thumbnailHero {
+  content: "";
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

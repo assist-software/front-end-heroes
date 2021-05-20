@@ -1,11 +1,7 @@
-import style from "./MoldoveanuDorin.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const MoldoveanuDorin = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Moldoveanu Dorin</h2>
-    </div>
-  );
+  return <Thumbnail name="Moldoveanu Dorin" type="male" />;
 };
 
 export default MoldoveanuDorin;

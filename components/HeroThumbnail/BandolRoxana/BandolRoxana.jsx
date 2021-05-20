@@ -1,11 +1,7 @@
-import style from "./BandolRoxana.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const BandolRoxana = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Bandol Roxana</h2>
-    </div>
-  );
+  return <Thumbnail name="Bandol Roxana" type="female" />;
 };
 
 export default BandolRoxana;

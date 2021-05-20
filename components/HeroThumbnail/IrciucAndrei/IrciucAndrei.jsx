@@ -1,11 +1,7 @@
-import style from "./IrciucAndrei.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const IrciucAndrei = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Irciuc Andrei</h2>
-    </div>
-  );
+  return <Thumbnail name="Irciuc Andrei" type="male" />;
 };
 
 export default IrciucAndrei;

@@ -1,11 +1,7 @@
-import style from "./VorobchevhiciOvidiu.module.css";
+import { Thumbnail } from "../../Thumbnail/Thumbnail";
 
 const VorobchevhiciOvidiu = () => {
-  return (
-    <div className={style.thumbnail}>
-      <h2 className={style.name}>Vorobchevhici Ovidiu</h2>
-    </div>
-  );
+  return <Thumbnail name="Vorobchevhici Ovidiu" type="male" />;
 };
 
 export default VorobchevhiciOvidiu;
